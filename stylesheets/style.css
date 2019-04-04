@@ -39,7 +39,7 @@ button {
   border-radius: 2px;
 }
 
-/* From 320px and up */
+/* For up to 768px */
 @media (max-width: 768px) {
 
   nav {
@@ -80,13 +80,11 @@ button {
     order: 3;
   }
 
-  button[type="button"] {
+  button[name="button"] {
     border: none;
     background: #192592;
     color: #FFF;
     padding: 10px;
-    width: 100%;
-
   }
 
   button + p {
@@ -202,6 +200,5 @@ button {
   footer div + div > div img {
     height: 20px;
     width: auto;
-  }
-  
+  }  
 }
