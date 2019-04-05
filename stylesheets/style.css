@@ -144,12 +144,20 @@ button {
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
+    background: url(/images/iso-slack.png) no-repeat;
+    background-size: 100px 100px;
+    padding: 100px 20px 0 20px;
   }
 
-  footer div:first-child img {
+  /*footer div:first-child img {
     flex-basis: 0;
     height: auto;
     align-self: flex-start;
+  }*/
+
+  footer div:first-child img {
+    display: none;
+    visibility: hidden;
   }
 
   footer div:first-child ul {
