@@ -56,7 +56,6 @@ button {
     padding: 10px 20px;
     border-bottom: 2px solid #ccc;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
   }
 
@@ -149,12 +148,6 @@ button {
     padding: 100px 20px 0 20px;
   }
 
-  /*footer div:first-child img {
-    flex-basis: 0;
-    height: auto;
-    align-self: flex-start;
-  }*/
-
   footer div:first-child img {
     display: none;
     visibility: hidden;
@@ -210,12 +203,12 @@ button {
   }
 }
 
-/* For small screen between 767px and 961px */
-@media (min-width: 767px) and (max-width: 961px) {
+/* For small screen 767px and up */
+@media (min-width: 767px) {
 }
 
-/* For medium screens between 960px and 1024px */
-@media (min-width: 960px) and (max-width: 1024px) {
+/* For medium screens 960px and up */
+@media (min-width: 960px) {
 }
 
 /* For large screens 1200px and up */
